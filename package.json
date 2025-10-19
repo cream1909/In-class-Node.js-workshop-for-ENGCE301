@@ -1,28 +1,66 @@
 {
+  
   "name": "agent-wallboard-learn",
+  
   "version": "1.0.0",
+  
   "description": "In-class Node.js workshop for ENGCE301",
+  
   "main": "index.js",
+  
   "scripts": {
-    "test": " "
+  
+    
+  "start": "node server.js",
+  
+    
+  "dev": "nodemon server.js"
+  
   },
+  
   "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/cream1909/In-class-Node.js-workshop-for-ENGCE301.git"
+  
+    
+  "type": "git",
+  
+    
+  "url": "git+ssh://git@github.com/cream1909/In-class-Node.js-workshop-for-ENGCE301.git"
+  
   },
+  
   "keywords": [
-    "node",
-    "workshop",
-    "engce301"
+  
+    
+  "node",
+  
+    
+  "workshop",
+  
+    
+  "engce301"
+  
   ],
+  
   "author": "cream1909",
+  
   "license": "MIT",
+  
   "bugs": {
-    "url": "https://github.com/cream1909/In-class-Node.js-workshop-for-ENGCE301/issues"
+  
+    
+  "url": "https://github.com/cream1909/In-class-Node.js-workshop-for-ENGCE301/issues"
+  
   },
+  
   "homepage": "https://github.com/cream1909/In-class-Node.js-workshop-for-ENGCE301#readme",
+  
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^5.1.0"
+  
+    
+  "cors": "^2.8.5",
+  
+    
+  "express": "^5.1.0"
+  
   }
 }

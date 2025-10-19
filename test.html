@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CORS Test</title>
+</head>
+<body>
+<script>
+  fetch('http://localhost:3001/api/agents')
+      .then(res => res.json())
+      .then(data => console.log(data))
+      .catch(err => console.error('CORS Error:', err));
+</script>
+</body>
+</html>
